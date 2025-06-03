@@ -17,9 +17,7 @@ public class TimeInWords {
         Scanner scanner = new Scanner(System.in);
 
         // Read inputs for hour and minute
-        System.out.println("input the hour");
         int h = scanner.nextInt();
-        System.out.println("input the minute(s)");
         int m = scanner.nextInt();
 
         // Validate input to ensure they fall within constraints
